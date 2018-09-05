@@ -1,0 +1,96 @@
+html, body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+  background-color: black;
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+#logo {
+  width: 200px;
+  color: white;
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 90px;
+  padding: 12px 0;
+}
+
+nav {
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/*SHOWCASE*/
+#showcase {
+  background-image: url(012.jpg);
+  padding: 175px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*NEWSLETTER*/
+#newsletter {
+  background-color: #ddd;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/*BOX*/
+.boxes{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*OPTIONS*/
+#options img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#options, #features {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#options a {
+  color: #F08080;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  padding: 5px 0;
+  border: 2px solid #F08080;
+  margin: 10px auto 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color:#A9A9A9;
+  padding: 15px 0;
+}
